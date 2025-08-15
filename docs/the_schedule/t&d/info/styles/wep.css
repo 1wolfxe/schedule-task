@@ -1,0 +1,42 @@
+/* تنسيق عناصر HTML5 الهيكلية */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.8;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: #002ead;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+nav a, nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section a{
+    background-color: #eee8e89f;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-decoration: none;
+}
+
+section, article, aside {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    border-radius: 20px;
+    text-decoration: none;
+}
